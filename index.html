@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERMAN G. FONATABA</title>
+    <style>
+        /* Gaya untuk header */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 20px;
+            position: relative;
+        }
+        
+        /* Gaya untuk logo SVG di kiri */
+        .logo {
+            width: 30px;
+            height: 30px;
+            fill: white;
+        }
+
+        /* Nama web di tengah */
+        .site-name {
+            font-weight: bold;
+            margin: 0 auto; /* Untuk memposisikan nama web di tengah */
+        }
+
+        /* Garis pembatas */
+        .divider {
+            height: 2px;
+            background-color: #e0e0e0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Tombol download */
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            background-color: #FF5722;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-left: auto; /* Geser tombol ke kanan */
+        }
+        .download-button svg {
+            margin-right: 8px;
+            fill: white;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Kontainer untuk tombol */
+        .download-container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header dengan logo di kiri dan nama web di tengah -->
+    <header class="header">
+        <!-- Logo website di kiri -->
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+        </svg>
+        
+        <!-- Nama website di tengah -->
+        <div class="site-name">HERMAN G. FONATABA</div>
+    </header>
+
+    <!-- Garis pembatas -->
+    <div class="divider"></div>
+
+    <!-- Tombol download di bawah garis pembatas -->
+    <div class="download-container">
+        <a href="Vmos.zip" class="download-button" download>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 16c.256 0 .512-.098.707-.293l5-5-1.414-1.414L13 12.586V3h-2v9.586L7.707 9.293 6.293 10.707l5 5c.195.195.451.293.707.293zM5 18v2h14v-2H5z"/></svg>
+            DOWNLOAD
+        </a>
+    </div>
+
+</body>
+</html>
